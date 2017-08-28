@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "openPQDIF", "Libraries\openPQDIF\openPQDIF.csproj", "{B4B5A12E-412E-4382-B991-3B67653F533C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{8090ED42-B5D5-48CF-A6E9-C194A1990681}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{F6BF15BE-31AA-4BD7-BD25-7D57E2D1047E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PQDIFViewer", "Applications\PQDIFViewer\PQDIFViewer.csproj", "{6FD7DFE1-8B9B-4A5D-88E5-58382F60F6F8}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs07
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Libraries\\openPQDIF\\openPQDIF.csproj
+		SccProjectTopLevelParentUniqueName1 = openPQDIF.sln
+		SccProjectName1 = Libraries/openPQDIF
+		SccLocalPath1 = Libraries\\openPQDIF
+		SccProjectUniqueName2 = Applications\\PQDIFViewer\\PQDIFViewer.csproj
+		SccProjectTopLevelParentUniqueName2 = openPQDIF.sln
+		SccProjectName2 = Applications/PQDIFViewer
+		SccLocalPath2 = Applications\\PQDIFViewer
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4B5A12E-412E-4382-B991-3B67653F533C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4B5A12E-412E-4382-B991-3B67653F533C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4B5A12E-412E-4382-B991-3B67653F533C}.Debug|x86.ActiveCfg = Debug|x86
+		{B4B5A12E-412E-4382-B991-3B67653F533C}.Debug|x86.Build.0 = Debug|x86
+		{B4B5A12E-412E-4382-B991-3B67653F533C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4B5A12E-412E-4382-B991-3B67653F533C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4B5A12E-412E-4382-B991-3B67653F533C}.Release|x86.ActiveCfg = Release|x86
+		{B4B5A12E-412E-4382-B991-3B67653F533C}.Release|x86.Build.0 = Release|x86
+		{6FD7DFE1-8B9B-4A5D-88E5-58382F60F6F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FD7DFE1-8B9B-4A5D-88E5-58382F60F6F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FD7DFE1-8B9B-4A5D-88E5-58382F60F6F8}.Debug|x86.ActiveCfg = Debug|x86
+		{6FD7DFE1-8B9B-4A5D-88E5-58382F60F6F8}.Debug|x86.Build.0 = Debug|x86
+		{6FD7DFE1-8B9B-4A5D-88E5-58382F60F6F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FD7DFE1-8B9B-4A5D-88E5-58382F60F6F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FD7DFE1-8B9B-4A5D-88E5-58382F60F6F8}.Release|x86.ActiveCfg = Release|x86
+		{6FD7DFE1-8B9B-4A5D-88E5-58382F60F6F8}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B4B5A12E-412E-4382-B991-3B67653F533C} = {8090ED42-B5D5-48CF-A6E9-C194A1990681}
+		{6FD7DFE1-8B9B-4A5D-88E5-58382F60F6F8} = {F6BF15BE-31AA-4BD7-BD25-7D57E2D1047E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,131 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{C0CC058D-4A47-4DF0-A559-BA6147EBD73A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{275C9A59-7B7E-41A4-9E6B-EA15CE4AFACE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaultAlgorithms", "Libraries\FaultAlgorithms\FaultAlgorithms.csproj", "{24EB0E7B-9F79-4E3A-94FB-87BD4D06A400}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "openFLEManager", "Applications\openFLEManager\openFLEManager.csproj", "{8F3E211B-B0C7-49CB-9683-E488E4E6702F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "openFLESetup", "Applications\openFLESetup\openFLESetup.vdproj", "{CDF4D4EC-802E-4C42-BBF0-5A23FB6223E6}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "openFLESetup64", "Applications\openFLESetup64\openFLESetup64.vdproj", "{7C63B882-D920-4C6D-82A8-F77C719FD304}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{F59DA511-1F41-41C4-9558-75CC71A6A4B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Setup", "Tools\Setup\Setup.csproj", "{9937C4D1-58ED-47B0-9F5D-6400C4D0818B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7C63B882-D920-4C6D-82A8-F77C719FD304} = {7C63B882-D920-4C6D-82A8-F77C719FD304}
+		{CDF4D4EC-802E-4C42-BBF0-5A23FB6223E6} = {CDF4D4EC-802E-4C42-BBF0-5A23FB6223E6}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "openFLE", "Applications\openFLE\openFLE.csproj", "{0218BFF0-F4D8-4F24-A0A8-59F330CC9DE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "openFLEConsole", "Applications\openFLEConsole\openFLEConsole.csproj", "{33FAD525-AAE2-4E26-A790-ECC18697CE45}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs07
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Libraries\\FaultAlgorithms\\FaultAlgorithms.csproj
+		SccProjectTopLevelParentUniqueName1 = openFLE.sln
+		SccProjectName1 = Libraries/FaultAlgorithms
+		SccLocalPath1 = Libraries\\FaultAlgorithms
+		SccProjectUniqueName2 = Applications\\openFLEManager\\openFLEManager.csproj
+		SccProjectTopLevelParentUniqueName2 = openFLE.sln
+		SccProjectName2 = Applications/openFLEManager
+		SccLocalPath2 = Applications\\openFLEManager
+		SccProjectUniqueName3 = Applications\\openFLESetup\\openFLESetup.vdproj
+		SccProjectTopLevelParentUniqueName3 = openFLE.sln
+		SccProjectName3 = Applications/openFLESetup
+		SccLocalPath3 = Applications\\openFLESetup
+		SccProjectUniqueName4 = Applications\\openFLESetup64\\openFLESetup64.vdproj
+		SccProjectTopLevelParentUniqueName4 = openFLE.sln
+		SccProjectName4 = Applications/openFLESetup64
+		SccLocalPath4 = Applications\\openFLESetup64
+		SccProjectUniqueName5 = Tools\\Setup\\Setup.csproj
+		SccProjectTopLevelParentUniqueName5 = openFLE.sln
+		SccProjectName5 = Tools/Setup
+		SccLocalPath5 = Tools\\Setup
+		SccProjectUniqueName6 = Applications\\openFLE\\openFLE.csproj
+		SccProjectTopLevelParentUniqueName6 = openFLE.sln
+		SccProjectName6 = Applications/openFLE
+		SccLocalPath6 = Applications\\openFLE
+		SccProjectUniqueName7 = Applications\\openFLEConsole\\openFLEConsole.csproj
+		SccProjectTopLevelParentUniqueName7 = openFLE.sln
+		SccProjectName7 = Applications/openFLEConsole
+		SccLocalPath7 = Applications\\openFLEConsole
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24EB0E7B-9F79-4E3A-94FB-87BD4D06A400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24EB0E7B-9F79-4E3A-94FB-87BD4D06A400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24EB0E7B-9F79-4E3A-94FB-87BD4D06A400}.Debug|x86.ActiveCfg = Debug|x86
+		{24EB0E7B-9F79-4E3A-94FB-87BD4D06A400}.Debug|x86.Build.0 = Debug|x86
+		{24EB0E7B-9F79-4E3A-94FB-87BD4D06A400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24EB0E7B-9F79-4E3A-94FB-87BD4D06A400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24EB0E7B-9F79-4E3A-94FB-87BD4D06A400}.Release|x86.ActiveCfg = Release|x86
+		{24EB0E7B-9F79-4E3A-94FB-87BD4D06A400}.Release|x86.Build.0 = Release|x86
+		{8F3E211B-B0C7-49CB-9683-E488E4E6702F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F3E211B-B0C7-49CB-9683-E488E4E6702F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F3E211B-B0C7-49CB-9683-E488E4E6702F}.Debug|x86.ActiveCfg = Debug|x86
+		{8F3E211B-B0C7-49CB-9683-E488E4E6702F}.Debug|x86.Build.0 = Debug|x86
+		{8F3E211B-B0C7-49CB-9683-E488E4E6702F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F3E211B-B0C7-49CB-9683-E488E4E6702F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F3E211B-B0C7-49CB-9683-E488E4E6702F}.Release|x86.ActiveCfg = Release|x86
+		{8F3E211B-B0C7-49CB-9683-E488E4E6702F}.Release|x86.Build.0 = Release|x86
+		{CDF4D4EC-802E-4C42-BBF0-5A23FB6223E6}.Debug|Any CPU.ActiveCfg = Debug
+		{CDF4D4EC-802E-4C42-BBF0-5A23FB6223E6}.Debug|x86.ActiveCfg = Debug
+		{CDF4D4EC-802E-4C42-BBF0-5A23FB6223E6}.Release|Any CPU.ActiveCfg = Release
+		{CDF4D4EC-802E-4C42-BBF0-5A23FB6223E6}.Release|x86.ActiveCfg = Release
+		{CDF4D4EC-802E-4C42-BBF0-5A23FB6223E6}.Release|x86.Build.0 = Release
+		{7C63B882-D920-4C6D-82A8-F77C719FD304}.Debug|Any CPU.ActiveCfg = Debug
+		{7C63B882-D920-4C6D-82A8-F77C719FD304}.Debug|x86.ActiveCfg = Debug
+		{7C63B882-D920-4C6D-82A8-F77C719FD304}.Release|Any CPU.ActiveCfg = Release
+		{7C63B882-D920-4C6D-82A8-F77C719FD304}.Release|Any CPU.Build.0 = Release
+		{7C63B882-D920-4C6D-82A8-F77C719FD304}.Release|x86.ActiveCfg = Release
+		{9937C4D1-58ED-47B0-9F5D-6400C4D0818B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9937C4D1-58ED-47B0-9F5D-6400C4D0818B}.Debug|x86.ActiveCfg = Debug|x86
+		{9937C4D1-58ED-47B0-9F5D-6400C4D0818B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9937C4D1-58ED-47B0-9F5D-6400C4D0818B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9937C4D1-58ED-47B0-9F5D-6400C4D0818B}.Release|x86.ActiveCfg = Release|x86
+		{9937C4D1-58ED-47B0-9F5D-6400C4D0818B}.Release|x86.Build.0 = Release|x86
+		{0218BFF0-F4D8-4F24-A0A8-59F330CC9DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0218BFF0-F4D8-4F24-A0A8-59F330CC9DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0218BFF0-F4D8-4F24-A0A8-59F330CC9DE3}.Debug|x86.ActiveCfg = Debug|x86
+		{0218BFF0-F4D8-4F24-A0A8-59F330CC9DE3}.Debug|x86.Build.0 = Debug|x86
+		{0218BFF0-F4D8-4F24-A0A8-59F330CC9DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0218BFF0-F4D8-4F24-A0A8-59F330CC9DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0218BFF0-F4D8-4F24-A0A8-59F330CC9DE3}.Release|x86.ActiveCfg = Release|x86
+		{0218BFF0-F4D8-4F24-A0A8-59F330CC9DE3}.Release|x86.Build.0 = Release|x86
+		{33FAD525-AAE2-4E26-A790-ECC18697CE45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33FAD525-AAE2-4E26-A790-ECC18697CE45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33FAD525-AAE2-4E26-A790-ECC18697CE45}.Debug|x86.ActiveCfg = Debug|x86
+		{33FAD525-AAE2-4E26-A790-ECC18697CE45}.Debug|x86.Build.0 = Debug|x86
+		{33FAD525-AAE2-4E26-A790-ECC18697CE45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33FAD525-AAE2-4E26-A790-ECC18697CE45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33FAD525-AAE2-4E26-A790-ECC18697CE45}.Release|x86.ActiveCfg = Release|x86
+		{33FAD525-AAE2-4E26-A790-ECC18697CE45}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8F3E211B-B0C7-49CB-9683-E488E4E6702F} = {C0CC058D-4A47-4DF0-A559-BA6147EBD73A}
+		{CDF4D4EC-802E-4C42-BBF0-5A23FB6223E6} = {C0CC058D-4A47-4DF0-A559-BA6147EBD73A}
+		{7C63B882-D920-4C6D-82A8-F77C719FD304} = {C0CC058D-4A47-4DF0-A559-BA6147EBD73A}
+		{0218BFF0-F4D8-4F24-A0A8-59F330CC9DE3} = {C0CC058D-4A47-4DF0-A559-BA6147EBD73A}
+		{33FAD525-AAE2-4E26-A790-ECC18697CE45} = {C0CC058D-4A47-4DF0-A559-BA6147EBD73A}
+		{24EB0E7B-9F79-4E3A-94FB-87BD4D06A400} = {275C9A59-7B7E-41A4-9E6B-EA15CE4AFACE}
+		{9937C4D1-58ED-47B0-9F5D-6400C4D0818B} = {F59DA511-1F41-41C4-9558-75CC71A6A4B9}
+	EndGlobalSection
+EndGlobal

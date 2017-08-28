@@ -1,0 +1,19 @@
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\Build\Output\Release\Applications\openFLE\openFLEManager.exe
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\Build\Output\Release\Applications\openFLE\openFLEManager.pdb
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLEManager\obj\Release\ResolveAssemblyReference.cache
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLEManager\obj\Release\AboutWindow.baml
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLEManager\obj\Release\LicenseWindow.baml
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLEManager\obj\Release\AboutWindow.g.cs
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLEManager\obj\Release\LicenseWindow.g.cs
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLEManager\obj\Release\MainWindow.g.cs
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLEManager\obj\Release\App.g.cs
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLEManager\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLEManager\obj\Release\openFLEManager_MarkupCompile.cache
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLEManager\obj\Release\openFLEManager_MarkupCompile.lref
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLEManager\obj\Release\MainWindow.baml
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLEManager\obj\Release\openFLEManager.g.resources
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLEManager\obj\Release\openFLEManager.Properties.Resources.resources
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLEManager\obj\Release\GenerateResource.read.1.tlog
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLEManager\obj\Release\GenerateResource.write.1.tlog
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLEManager\obj\Release\openFLEManager.exe
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLEManager\obj\Release\openFLEManager.pdb

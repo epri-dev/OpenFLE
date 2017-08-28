@@ -1,0 +1,11 @@
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\Build\Output\Debug\Applications\openFLE\openFLE.exe.config
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\Build\Output\Debug\Applications\openFLE\openFLE.exe
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\Build\Output\Debug\Applications\openFLE\openFLE.pdb
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLE\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLE\obj\Debug\openFLE.DebugHost.resources
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLE\obj\Debug\openFLE.ServiceHost.resources
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLE\obj\Debug\openFLE.ServiceInstall.resources
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLE\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLE\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLE\obj\Debug\openFLE.exe
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLE\obj\Debug\openFLE.pdb

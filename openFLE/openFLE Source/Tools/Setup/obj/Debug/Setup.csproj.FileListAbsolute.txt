@@ -1,0 +1,16 @@
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\Build\Output\Debug\Setup\README.txt
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\Build\Output\Debug\Setup\License.rtf
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\Build\Output\Debug\Setup\Setup.exe
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\Build\Output\Debug\Setup\Setup.pdb
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Tools\Setup\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Tools\Setup\obj\Debug\MainWindow.baml
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Tools\Setup\obj\Debug\MainWindow.g.cs
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Tools\Setup\obj\Debug\App.g.cs
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Tools\Setup\obj\Debug\Setup_Content.g.cs
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Tools\Setup\obj\Debug\Setup_MarkupCompile.cache
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Tools\Setup\obj\Debug\Setup.g.resources
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Tools\Setup\obj\Debug\Setup.Properties.Resources.resources
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Tools\Setup\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Tools\Setup\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Tools\Setup\obj\Debug\Setup.exe
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Tools\Setup\obj\Debug\Setup.pdb

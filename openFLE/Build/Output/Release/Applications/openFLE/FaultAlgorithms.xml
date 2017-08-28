@@ -1,0 +1,298 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FaultAlgorithms</name>
+    </assembly>
+    <members>
+        <member name="T:FaultAlgorithms.MeasurementDataSet">
+            <summary>
+            Represents a set of 3-phase line-to-neutral and line-to-line time-domain power data.
+            </summary>
+        </member>
+        <member name="F:FaultAlgorithms.MeasurementDataSet.AN">
+            <summary>
+            Line-to-neutral A-phase data.
+            </summary>
+        </member>
+        <member name="F:FaultAlgorithms.MeasurementDataSet.BN">
+            <summary>
+            Line-to-neutral B-phase data.
+            </summary>
+        </member>
+        <member name="F:FaultAlgorithms.MeasurementDataSet.CN">
+            <summary>
+            Line-to-neutral C-phase data.
+            </summary>
+        </member>
+        <member name="M:FaultAlgorithms.MeasurementDataSet.#ctor">
+            <summary>
+            Creates a new <see cref="T:FaultAlgorithms.MeasurementDataSet"/>.
+            </summary>
+        </member>
+        <member name="M:FaultAlgorithms.MeasurementDataSet.ExportVoltageDataToCSV(System.String)">
+            <summary>
+            Writes all measurement data to a CSV file. 
+            </summary>
+            <param name="fileName">Export file name.</param>
+        </member>
+        <member name="T:FaultAlgorithms.CycleDataSet">
+            <summary>
+            Represents a collection of all the cycles extracted from a given data set.
+            </summary>
+        </member>
+        <member name="M:FaultAlgorithms.CycleDataSet.#ctor">
+            <summary>
+            Creates a new instance of the <see cref="T:FaultAlgorithms.CycleDataSet"/> class.
+            </summary>
+        </member>
+        <member name="M:FaultAlgorithms.CycleDataSet.#ctor(FaultAlgorithms.MeasurementDataSet,FaultAlgorithms.MeasurementDataSet,System.Int32)">
+            <summary>
+            Creates a new instance of the <see cref="T:FaultAlgorithms.CycleDataSet"/> class.
+            </summary>
+            <param name="voltageDataSet">The data set containing voltage data points.</param>
+            <param name="currentDataSet">The data set containing current data points.</param>
+            <param name="samplesPerCycle">The number of samples per cycle.</param>
+        </member>
+        <member name="M:FaultAlgorithms.CycleDataSet.GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through the collection of cycles.
+            </summary>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerator`1"/> object that can be used to iterate through the collection.</returns>
+        </member>
+        <member name="M:FaultAlgorithms.CycleDataSet.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through the collection of cycles.
+            </summary>
+            <returns>An <see cref="T:System.Collections.IEnumerator"/> object that can be used to iterate through the collection.</returns>
+        </member>
+        <member name="M:FaultAlgorithms.CycleDataSet.ExportToCSV(System.String,FaultAlgorithms.CycleDataSet)">
+            <summary>
+            Exports the given <see cref="T:FaultAlgorithms.CycleDataSet"/> to a CSV file.
+            </summary>
+            <param name="fileName">The name of the CSV file.</param>
+            <param name="cycles">The cycle data set to be exported.</param>
+        </member>
+        <member name="P:FaultAlgorithms.CycleDataSet.Item(System.Int32)">
+            <summary>
+            Gets or sets the data structure containing a
+            full cycle of data at the given index.
+            </summary>
+            <param name="i">The index of the cycle.</param>
+            <returns>The cycle of data at the given index.</returns>
+        </member>
+        <member name="P:FaultAlgorithms.CycleDataSet.Count">
+            <summary>
+            Gets the size of the cycle data set.
+            </summary>
+        </member>
+        <member name="T:FaultAlgorithms.Cycle">
+            <summary>
+            Represents a cycle of single phase power frequency-domain data.
+            </summary>
+        </member>
+        <member name="F:FaultAlgorithms.Cycle.Frequency">
+            <summary>
+            The actual frequency of the cycle in hertz.
+            </summary>
+        </member>
+        <member name="F:FaultAlgorithms.Cycle.Complex">
+            <summary>
+            The complex number representation of the RMS phasor.
+            </summary>
+        </member>
+        <member name="F:FaultAlgorithms.Cycle.Peak">
+            <summary>
+            The most extreme data point in the cycle.
+            </summary>
+        </member>
+        <member name="P:FaultAlgorithms.Cycle.RMS">
+            <summary>
+            Root-mean-square of the <see cref="F:FaultAlgorithms.MeasurementData.Values"/> in the cycle.
+            </summary>
+        </member>
+        <member name="P:FaultAlgorithms.Cycle.Phase">
+            <summary>
+            Phase angle of the start of the cycle, relative to the reference angle.
+            </summary>
+        </member>
+        <member name="T:FaultAlgorithms.CycleData">
+            <summary>
+            Contains data for a single cycle over all three line-to-neutral conductors.
+            </summary>
+        </member>
+        <member name="F:FaultAlgorithms.CycleData.TwoPI">
+            <summary>
+            2 * pi
+            </summary>
+        </member>
+        <member name="F:FaultAlgorithms.CycleData.AN">
+            <summary>
+            A-to-neutral conductor
+            </summary>
+        </member>
+        <member name="F:FaultAlgorithms.CycleData.BN">
+            <summary>
+            B-to-neutral conductor
+            </summary>
+        </member>
+        <member name="F:FaultAlgorithms.CycleData.CN">
+            <summary>
+            C-to-neutral conductor
+            </summary>
+        </member>
+        <member name="F:FaultAlgorithms.CycleData.StartIndex">
+            <summary>
+            The index from the original <see cref="T:FaultAlgorithms.MeasurementDataSet"/> of the start of this cycle.
+            </summary>
+        </member>
+        <member name="F:FaultAlgorithms.CycleData.StopIndex">
+            <summary>
+            The index from the original <see cref="T:FaultAlgorithms.MeasurementDataSet"/> of the end of this cycle.
+            </summary>
+        </member>
+        <member name="M:FaultAlgorithms.CycleData.#ctor">
+            <summary>
+            Creates a new instance of the <see cref="T:FaultAlgorithms.CycleData"/> class.
+            </summary>
+        </member>
+        <member name="M:FaultAlgorithms.CycleData.#ctor(System.Double,System.Int32,System.Int64[],System.Double[],System.Double[],System.Double[],System.Double[],System.Double[],System.Double[])">
+            <summary>
+            Creates a new instance of the <see cref="T:FaultAlgorithms.CycleData"/> class.
+            </summary>
+            <param name="frequency">The frequency of the sine wave during this cycle.</param>
+            <param name="time">The time values over the full cycle.</param>
+            <param name="vAN">The voltage values for the A-to-neutral conductor.</param>
+            <param name="iAN">The current values for the A-to-neutral conductor.</param>
+            <param name="vBN">The voltage values for the B-to-neutral conductor.</param>
+            <param name="iBN">The current values for the B-to-neutral conductor.</param>
+            <param name="vCN">The voltage values for the C-to-neutral conductor.</param>
+            <param name="iCN">The current values for the C-to-neutral conductor.</param>
+        </member>
+        <member name="M:FaultAlgorithms.CycleData.CalculateSequenceComponents(FaultAlgorithms.Cycle,FaultAlgorithms.Cycle,FaultAlgorithms.Cycle)">
+            <summary>
+            Calculates the positive, negative, and zero sequence components
+            and returns them in an array with indexes 1, 2, and 0 respectively.
+            </summary>
+            <param name="anCycle">The cycle of A-to-neutral data to be used.</param>
+            <param name="bnCycle">The cycle of B-to-neutral data to be used.</param>
+            <param name="cnCycle">The cycle of C-to-neutral data to be used.</param>
+            <returns>An array of size 3 containing the zero sequence, positive sequence, and negative sequence components in that order.</returns>
+        </member>
+        <member name="P:FaultAlgorithms.FaultLocationDataSet.PositiveImpedance">
+            <summary>
+            Gets or sets the positive sequence impedance.
+            </summary>
+        </member>
+        <member name="P:FaultAlgorithms.FaultLocationDataSet.ZeroImpedance">
+            <summary>
+            Gets or sets the zero sequence impedance.
+            </summary>
+        </member>
+        <member name="P:FaultAlgorithms.FaultLocationDataSet.LoopImpedance">
+            <summary>
+            Gets the loop impedance <c>[(Z0 + 2*Z1) / 3]</c>.
+            </summary>
+        </member>
+        <member name="P:FaultAlgorithms.FaultLocationDataSet.Z1">
+            <summary>
+            Gets or sets the positive sequence impedance.
+            </summary>
+        </member>
+        <member name="P:FaultAlgorithms.FaultLocationDataSet.Z0">
+            <summary>
+            Gets or sets the zero sequence impedance.
+            </summary>
+        </member>
+        <member name="P:FaultAlgorithms.FaultLocationDataSet.Zs">
+            <summary>
+            Gets the loop impedance <c>[(Z0 + 2*Z1) / 3]</c>.
+            </summary>
+        </member>
+        <member name="T:FaultAlgorithms.MeasurementData">
+            <summary>
+            Represents a set of single phase power time-domain data.
+            </summary>
+        </member>
+        <member name="F:FaultAlgorithms.MeasurementData.Times">
+            <summary>
+            Array of times in ticks (100 nanosecond intervals).
+            </summary>
+        </member>
+        <member name="F:FaultAlgorithms.MeasurementData.Values">
+            <summary>
+            Array of magnitude values.
+            </summary>
+        </member>
+        <member name="T:FaultAlgorithms.Conductor">
+            <summary>
+            Contains data for both the voltage
+            and current on a conductor.
+            </summary>
+        </member>
+        <member name="F:FaultAlgorithms.Conductor.V">
+            <summary>
+            One cycle of voltage data.
+            </summary>
+        </member>
+        <member name="F:FaultAlgorithms.Conductor.I">
+            <summary>
+            One cycle of current data.
+            </summary>
+        </member>
+        <member name="F:FaultAlgorithms.Conductor.VError">
+            <summary>
+            The error in voltage between the sine fit and the given data values.
+            </summary>
+        </member>
+        <member name="F:FaultAlgorithms.Conductor.IError">
+            <summary>
+            The error in current between the sine fit and the given data values.
+            </summary>
+        </member>
+        <member name="M:FaultAlgorithms.Conductor.#ctor">
+            <summary>
+            Creates a new instance of the <see cref="T:FaultAlgorithms.Conductor"/> class.
+            </summary>
+        </member>
+        <member name="M:FaultAlgorithms.Conductor.#ctor(System.Double,System.Int64[],System.Double[],System.Double[])">
+            <summary>
+            Creates a new instance of the <see cref="T:FaultAlgorithms.Conductor"/> class.
+            </summary>
+            <param name="frequency">The frequency of the sine wave during this cycle.</param>
+            <param name="timeData">The timestamps of the data points in the given data.</param>
+            <param name="voltData">The voltage data points.</param>
+            <param name="currentData">The current data points.</param>
+        </member>
+        <member name="T:FaultAlgorithms.FaultDetectionAlgorithm">
+            <summary>
+            Function signature for fault detection algorithms.
+            </summary>
+            <param name="faultDataSet">Full collection of voltage, current, and cycle data.</param>
+            <param name="parameters">Custom parameters for algorithm.</param>
+            <returns><c>true</c> if fault was found in dataset; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="T:FaultAlgorithms.FaultLocationAlgorithm">
+            <summary>
+            Function signature for fault location algorithms.
+            </summary>
+            <param name="faultDataSet">Full collection of voltage, current, and cycle data.</param>
+            <param name="parameters">Custom parameters for algorithm.</param>
+            <returns>Percentage of distance down the line where fault occured.</returns>
+        </member>
+        <member name="T:FaultAlgorithms.FaultDetectionAlgorithmAttribute">
+            <summary>
+            Attribute used to annotate fault detection algorithms.
+            </summary>
+        </member>
+        <member name="T:FaultAlgorithms.FaultLocationAlgorithmAttribute">
+            <summary>
+            Attribute used to annotate fault location algorithms.
+            </summary>
+        </member>
+        <member name="T:FaultAlgorithms.SimpleFaultAlgorithms">
+            <summary>
+            Defines built-in fault detection and location algorithms
+            </summary>
+        </member>
+    </members>
+</doc>

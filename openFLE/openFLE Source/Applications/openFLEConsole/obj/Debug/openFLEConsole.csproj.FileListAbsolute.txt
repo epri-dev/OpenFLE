@@ -1,0 +1,8 @@
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\Build\Output\Debug\Applications\openFLE\openFLEConsole.exe
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\Build\Output\Debug\Applications\openFLE\openFLEConsole.pdb
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLEConsole\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLEConsole\obj\Debug\openFLEConsole.ServiceClient.resources
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLEConsole\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLEConsole\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLEConsole\obj\Debug\openFLEConsole.exe
+C:\Users\ptda003\Desktop\openFLE-2\openFLE\openFLE Source\Applications\openFLEConsole\obj\Debug\openFLEConsole.pdb
